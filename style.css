@@ -1,1 +1,131 @@
 
+/*
+color codes
+
+grayish blue; 	598ADE
+light gray; #D3D3D3 #28b8b4 (lighter)
+bright yellow: #FFFF00
+cyan:  #00FFFF
+
+font: https://fonts.google.com/download?family=Karla
+*/
+html {
+    box-sixing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+  }
+  
+  h2, h4, p {margin: 0;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    padding: 20px;
+  }
+  #card {
+    width: 600px;
+    height: 400px;
+   box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  #top-section {
+    width: 100%;
+    height: 35%; 
+  padding: 20px;
+  }
+  
+  #bottom-section {
+    margin: 0;
+    width: 100%;
+    height: 60%;
+    border: 0;
+    color: white;
+    }
+  
+  #bottom-left-section {
+    background-color: #2ab2af;
+    vertical-align: top;
+    margin: 0;
+    display: inline-block;
+     width: 43%;
+    height: 100%;
+  padding: 20px;
+  }
+  
+  #bottom-right-section {
+    background-color: #2ebfbd;
+    verticl-aline: top;
+    display: inline-block; 
+    width: 43%;
+    height: 100%;
+  padding: 20px;
+    
+  }
+  
+  #top-section h2 {
+    color: #2ab2af;
+    margin-bottom: 15px;
+    
+  }
+  #top-section h4 {
+    color: #c0df34;
+    margin-bottom: 10px;
+  }
+  #top-section p {
+    color: #98a6bd;
+  }
+  button {
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+  }
+  .price {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  #bottom-left-section h2 {
+    margin-bottom: 20px;
+  }
+  #bottom-left-section p {
+    font-size: .8rem;
+    margin-bottom: 35px;
+  }
+  .price-frequency, .price {
+    display: inline-block;
+  }
+  .price-container {
+  margin-bottom: 20px;  
+  }
+  .price-frequency {
+    position: relative;
+    top: -6px;
+    font-size: .8rem;
+    opacity: .7;
+    margin-left: 5px;
+  }
+  #bottom-right-section ul {
+    list-style: none;
+    padding: 0;
+    font-size: .8rem;
+    opacity: .8;
+     
+  }
+  
+  #bottom-right-section h4 {
+    margin-top: 7px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #a9c42d;
+    color: black;
+    transform: scale(1.1);
+  }
+  
